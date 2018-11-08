@@ -44,7 +44,85 @@
 
 @media screen and (max-width: 375px) {
 	.offer__title {
-	   font-size: 16.77px;
+	   font-size: 15.77px;
 	}
-} 
+
+	.offer {
+		top: -21% !important;
+	}
+
+	.arrow {
+		top: -131px !important;
+	}
+
+	.footer__btn {
+		top: -127px !important;
+	}
+
+	.footer__txt {
+		margin-top: -117px !important;
+	}
+
+	.offer__title {
+    font-size: 16.77px !important;
+}
+
+	.offer__title span {
+    font-size: 15.77px !important;
+}
+
+@media screen and (max-width: 362px) {
+	.offer__item {
+		width: 90px !important;
+    	height: 90px !important;
+	}
+
+	.offer__number {
+		font-size: 41.93px !important;
+	}
+
+	.offer__number_small {
+		font-size: 27.33px;
+		margin-top: -21px;
+
+	}
+
+	.offer__number__middle {
+		font-size: 32.11px;
+	}
+
+	.offer__txt {
+		font-size: 12px !important;
+	}
+	.offer__txt_hd {
+		font-size: 8.76px !important;
+		margin-top: -5px !important;
+	}
+	.offer__txt_md {
+		font-size: 7px !important;
+	}
+
+	.offer__txt_mdd {
+		font-size: 8px !important;
+	}
+
+	.offer__txt_sm {
+		font-size: 7px !important;
+	}
+
+	.offer__img_wifi {
+		margin-top: 15px !important;
+	}
+
+	.offer__img {
+		margin-top: 26px !important;
+	}
+
+}
+
+@media screen and (max-width: 362px) {
+	.arrow {
+    top: -118px !important;
+    margin-left: 0 !important;
+}
 
