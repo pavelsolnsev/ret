@@ -34,11 +34,13 @@
 	}
 
 	.footer__btn {
-		top: -18px !important;
+		top: -6px !important;
 	}
 	.footer__txt {
-	margin-top: -10px !important;
+	margin-top: 0px !important;
 }
+
+
 
 }
 
@@ -56,11 +58,11 @@
 	}
 
 	.footer__btn {
-		top: -127px !important;
+		top: -120px !important;
 	}
 
 	.footer__txt {
-		margin-top: -117px !important;
+		margin-top: -104px !important;
 	}
 
 	.offer__title {
