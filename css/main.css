@@ -50,17 +50,25 @@ h1 {
   padding: 0 15%;
 }
 
-.offer::before {
-  content: "";
+.offer:before, .offer:after {
+  background: inherit;
+  content: '';
+  display: block;
+  height: 50%;
+  left: 0;
   position: absolute;
-  top: -50px;
-  height: 100px;
-  left: -10px;
-  right: -10px;
-  background: #000;
-  transform: rotate(-2deg);
+  right: 0;
+  z-index: -1;
+  -webkit-backface-visibility: hidden;
 }
 
+.offer:before {
+  top: 0;
+  -webkit-transform: skewY(6.5deg);
+          transform: skewY(6.5deg);
+  -webkit-transform-origin: 100% 0;
+          transform-origin: 100% 0;
+}
 .offer:after {
   bottom: 0;
   -webkit-transform: skewY(-1.5deg);
@@ -68,60 +76,6 @@ h1 {
   -webkit-transform-origin: 100%;
           transform-origin: 100%;
 }
-
-
-
-.offer__wrap {
-  overflow: hidden;
-}
-
-.offer {
-  width: 100%;
-  height: 300px;
-  background: #000;
-  margin: 100px 0;
-  position: relative;
-  padding: 0;
-  color: #fff;
-}
-
-.offer::before {
-  content: "";
-  position: absolute;
-  top: -50px;
-  height: 100px;
-  left: -10px;
-  right: -10px;
-  background: #000;
-  transform: rotate(-2deg);
-}
-
-.offer::after {
-  content: "";
-  position: absolute;
-  bottom: -50px;
-  height: 100px;
-  left: -10px;
-  right: -10px;
-  background: #000;
-  transform: rotate(2deg);
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .offer__title {
 	font-size: 26.77px;
@@ -222,4 +176,8 @@ h1 {
 
 .footer {
 	text-align: center;
+}
+
+.tr {
+	background: #fff;
 }
