@@ -69,12 +69,13 @@ h1 {
   -webkit-transform-origin: 100% 0;
           transform-origin: 100% 0;
 }
+
 .offer:after {
-  bottom: 0;
-  -webkit-transform: skewY(-1.5deg);
-          transform: skewY(-1.5deg);
-  -webkit-transform-origin: 100%;
-          transform-origin: 100%;
+   bottom: 0;
+   -webkit-transform: skewY(6.5deg);
+   transform: skewY(6.5deg);
+   -webkit-transform-origin: 0 100%;
+   transform-origin: 0 100%;
 }
 
 .offer__title {
@@ -166,6 +167,7 @@ h1 {
 	position: relative;
 	z-index: 11;
 	padding: 8px 0;
+	top: 12px;
 }
 
 .footer__txt {

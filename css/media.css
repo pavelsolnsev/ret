@@ -1,4 +1,4 @@
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 640px) {
 
 	.offer__title {
 	   font-size: 21.77px;
@@ -8,4 +8,43 @@
 		 font-size: 19.77px;
 	}
 
+	.offer__item {
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+
 }
+
+@media screen and (max-width: 446px) {
+		.offer__item {
+			margin-left: 5px;
+			margin-right: 5px;
+	}
+
+	.offer__title {
+	   font-size: 19.77px !important;
+	}
+
+	.offer__title span {
+		 font-size: 16.77px !important;
+	}
+
+	.offer {
+		top: -7px;
+	}
+
+	.footer__btn {
+		top: -18px !important;
+	}
+	.footer__txt {
+	margin-top: -10px !important;
+}
+
+}
+
+@media screen and (max-width: 375px) {
+	.offer__title {
+	   font-size: 16.77px;
+	}
+} 
+
