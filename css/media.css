@@ -1,3 +1,11 @@
-@media screen and (max-width: 768px) {
-	
+@media screen and (max-width: 540px) {
+
+	.offer__title {
+	   font-size: 21.77px;
+	}
+
+	.offer__title span {
+		 font-size: 19.77px;
+	}
+
 }
