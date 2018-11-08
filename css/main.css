@@ -81,7 +81,8 @@ h1 {
 .offer__title {
 	font-size: 26.77px;
 	text-align: center;
-	padding-top: 10px;
+	padding-top: 30px;
+	line-height: 1.4em;
 }
 
 .offer__title span{
