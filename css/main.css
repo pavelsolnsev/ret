@@ -189,5 +189,7 @@ h1 {
 }
 
 .logo {
-	
+	position: absolute;
+    right: 0;
+    width: 143px;
 }
